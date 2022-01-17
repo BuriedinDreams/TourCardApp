@@ -2,13 +2,23 @@
 import React from 'react';
 import './App.css';
 import TourCard from './compnents/TourCard';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
 // import Paper from '@mui/material/Paper';
 
 
 function App() {
   return (
     <div className='App'>
-      <TourCard />
+      <Container >
+        <Grid container spacing={2}>
+          <TourCard />
+          <TourCard />
+          <TourCard />
+          <TourCard />
+        </Grid>
+      </Container>
+
     </div>
   );
 }
