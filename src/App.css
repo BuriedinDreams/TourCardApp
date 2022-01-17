@@ -2,27 +2,15 @@
   background-color: slategray;
 } */
 
+.img {
+  width: 100%;
+  max-width: 500px;
+  height: 10rem;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
-}
-
-.Header {
-  text-align: center;
-  background-color: cornflowerblue;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
