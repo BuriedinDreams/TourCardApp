@@ -3,9 +3,9 @@
 } */
 
 .img {
-  width: 100%;
-  max-width: 500px;
-  height: 10rem;
+  height: 100%;
+  max-width: 260px;
+  /* height: 15rem; */
 }
 
 * {
