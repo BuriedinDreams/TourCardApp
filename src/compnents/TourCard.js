@@ -17,7 +17,7 @@ const TourCard = () => {
                     alt='Photo of people observing Montana'></img>
 
                 <Box paddingX={1} >
-                    <Typography variant="h4" component="h4" >
+                    <Typography variant="h4" component="h4" marginLeft={1} >
                         Bozeman Montana
                     </Typography>
 
