@@ -3,7 +3,7 @@
     
     {
       "id": 1,
-      "name": "Heading out West",
+      "name": "out West",
       "tours": [
         {
           "id": 1,
@@ -33,7 +33,7 @@
     },
     {
       "id": 2,
-      "name": "Heading out East",
+      "name": "out East",
       "tours": [
         {
           "id": 4,

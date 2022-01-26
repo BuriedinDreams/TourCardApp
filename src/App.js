@@ -1,18 +1,20 @@
 
 import React from 'react';
-import './App.css';
-import TourCard from './ components/TourCard';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./webpages/Home";
 import SearchAppBar from './ components/Appbar';
-// import Paper from '@mui/material/Paper';
-import cities from "./ components/data.json";
-import Typography from '@mui/material/Typography';
-import Home from './ components/Home';
+import './App.css';
+
 
 function App() {
   return (
-    <Home />
+
+    <BrowserRouter>
+      <SearchAppBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

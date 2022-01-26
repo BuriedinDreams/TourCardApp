@@ -1,22 +1,15 @@
 
 import React from 'react';
-// import './App.css';
-import TourCard from './TourCard';
+import TourCard from '../ components/TourCard';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import SearchAppBar from './Appbar';
-// import Paper from '@mui/material/Paper';
-import cities from "./data.json";
+import cities from "../ components/data.json";
 import Typography from '@mui/material/Typography';
-
-
 
 
 function Home() {
     return (
         <div className='App'>
-
-            <SearchAppBar />
 
             <Container sx={{ marginY: 5 }} >
                 {cities.map((city) => (
@@ -25,7 +18,7 @@ function Home() {
                             marginTop={5}
                             marginBottom={3}
                         >
-                            Top {city.name} Tours
+                            Places to vist {city.name}
                         </Typography>
                         <Grid container spacing={5}>
                             {city.tours.map((tour, index) =>
