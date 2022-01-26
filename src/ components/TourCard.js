@@ -18,7 +18,7 @@ const TourCard = ({ tour }) => {
                     alt='Photo of people in said state'></img>
 
                 <Box paddingX={1} >
-                    <Typography variant="h4" component="h4" marginLeft={1} >
+                    <Typography variant="h1" component="h4" marginLeft={1} >
                         {tour.name}
                     </Typography>
 
@@ -26,11 +26,11 @@ const TourCard = ({ tour }) => {
                         display: "flex",
                         alignItems: "center"
                     }} >
-                        <ThumbUpAltIcon />
-                        <Typography variant="subtitle1" component="h3" marginLeft={1} >
+                        {/* <ThumbUpAltIcon /> */}
+                        <Typography variant="subtitle1" component="h2" marginLeft={2}  >
                             {tour.state}
                         </Typography>
-                        <Typography variant="subtitle1" component="h4" marginLeft={1} >
+                        <Typography variant="subtitle1" component="h4" marginLeft={3} >
                             {tour.slogan}
                         </Typography>
                     </Box>
