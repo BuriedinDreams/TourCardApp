@@ -1,0 +1,64 @@
+
+[
+    
+    {
+      "id": 1,
+      "name": "Heading out West",
+      "tours": [
+        {
+          "id": 1,
+          "state": "Montana",
+          "slogan": "Immerse into the wild",
+          "image": "https://www.visitmt.com/binaries/content/gallery/MTOT/photos/content-team/places-to-go/trip-ideas/trips-by-type/unforgettable-road-trips/b56a3200.jpg/b56a3200.jpg/MTOT%3Alandscape"
+        },
+        {
+          "id": 2,
+          "state": "Utah",
+          "slogan": "Explore the mountain ranges",
+          "image": "https://www.tripsavvy.com/thmb/VKVcNj_4F6ehKYPxuRGR7xCDbqg=/5250x3500/filters:fill(auto,1)/winter-scene-of-the-downtown-skyline-with-the-mormon-salt-lake-temple--backed-by-the-snowcapped-wasatch-mountains--salt-lake-city--utah--usa-533686504-5ad1364f18ba01003747bd7b.jpg"
+        },
+        {
+          "id": 3,
+          "state": "Colorado",
+          "slogan": "Getting lost in nature",
+          "image": "http://getwallpapers.com/wallpaper/full/b/2/6/1067429-colorado-wallpapers-1920x1080-lockscreen.jpg"
+        },
+        {
+          "id": 4,
+          "state": "Idaho",
+          "slogan": "Immerse into the Falls",
+          "image": "https://blog.campnative.com/wp-content/uploads/2016/08/Shoshone-falls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Heading out East",
+      "tours": [
+        {
+          "id": 4,
+          "state": "North Carolina",
+          "slogan": "A step above South Carolina",
+          "image": "https://assets.simpleviewcms.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/lasvegas/strip_b86ddbea-3add-4995-b449-ac85d700b027.jpg"
+        },
+        {
+          "id": 5,
+          "state": "Tennesse",
+          "slogan": "Life is extra twangy in Nashville",
+          "image": "http://howimbuildingmylife.com/wp-content/uploads/2015/05/Nashville-Skyline-small.jpg"
+        },
+        {
+          "id": 6,
+          "state": "Take me home! West Virginia",
+          "slogan": "Almost Heaven",
+          "image": "https://www.tripsavvy.com/thmb/Eu3pAHyrfCIYkkQthB3XSGxo1vg=/2121x1414/filters:fill(auto,1)/GettyImages-544336471-west-virginia-58f65afe3df78ca159007c75.jpg"
+        },
+        {
+          "id": 7,
+          "state": "Florida",
+          "slogan": "The Sunshine State",
+          "image": "https://get.pxhere.com/photo/recreation-amusement-park-park-landmark-cathedral-tourism-world-resort-tours-outdoor-recreation-magic-kingdom-walt-disney-world-cinderella's-castle-815996.jpg"
+        }
+      ]
+    }
+  ]

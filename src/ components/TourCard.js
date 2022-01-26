@@ -7,18 +7,19 @@ import Typography from '@mui/material/Typography';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
 
-const TourCard = () => {
+
+const TourCard = ({ tour }) => {
     return (
         // Grid allows me to put all my components inside a "box" to be Manipulated
         <Grid item xs={3} >
             {/* Paper gives the floating card effect */}
             <Paper elevation={4} >
-                <img className='img' src='https://www.visitmt.com/binaries/content/gallery/MTOT/photos/content-team/places-to-go/trip-ideas/trips-by-type/unforgettable-road-trips/b56a3200.jpg/b56a3200.jpg/MTOT%3Alandscape'
-                    alt='Photo of people observing Montana'></img>
+                <img className='img' src={tour.image}
+                    alt='Photo of people in said state'></img>
 
                 <Box paddingX={1} >
                     <Typography variant="h4" component="h4" marginLeft={1} >
-                        Bozeman Montana
+                        {tour.name}
                     </Typography>
 
                     <Box paddingX={1} sx={{
@@ -26,8 +27,11 @@ const TourCard = () => {
                         alignItems: "center"
                     }} >
                         <ThumbUpAltIcon />
+                        <Typography variant="subtitle1" component="h3" marginLeft={1} >
+                            {tour.state}
+                        </Typography>
                         <Typography variant="subtitle1" component="h4" marginLeft={1} >
-                            Immerse into the wild
+                            {tour.slogan}
                         </Typography>
                     </Box>
                 </Box>
