@@ -57,14 +57,16 @@ const itemData = [
         cols: 2,
     },
     {
-        img: 'https://roadtrippinwithbobandmark.com/wp-content/uploads/2017/06/yellowstone-2225102_1280.jpg',
-        title: 'Buffalo',
+
+        img: 'https://blog.bozemancvb.com/hubfs/iStock-468052892_c-1.jpg',
+        title: 'old Faithful',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'https://blog.bozemancvb.com/hubfs/iStock-468052892_c-1.jpg',
-        title: 'old Faithful',
+        img: 'https://roadtrippinwithbobandmark.com/wp-content/uploads/2017/06/yellowstone-2225102_1280.jpg',
+        title: 'Buffalo',
+
     },
     {
         img: 'https://cdn.globetrotting.com.au/wp-content/uploads/20190205105539/Bozeman-feature-image.jpg',
